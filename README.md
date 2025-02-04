@@ -19,7 +19,7 @@ sudo apt-get install apt-transport-https ca-certificates curl software-propertie
 ```
 c. Add Docker gpg key:
 ```console
-scurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 ```
 d. Add repository:
 ```console
