@@ -82,7 +82,7 @@ Make your changes here and save and close this file and now it's time to start t
 Step 5. Install and start the DayZ server.
 
 The first step here is to update SteamCMD and install all files for the DayZ server, luckily, HaywarGG from the Steam community has created a script for free use!
-In the container terminal you opened in Step 5, use the following command to update SteamCMD and install server files:
+In the container terminal you opened in Step 5, use the following command to update SteamCMD and install server files: (You will need to use your steam passwordto access the DayZ game files.)
 ```console
 bash dayzserver.sh
 ```
